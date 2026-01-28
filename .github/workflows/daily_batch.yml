@@ -22,10 +22,6 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run feature engineering
+      - name: Run daily batch pipeline
         run: |
-          python -m features.build_features
-
-      - name: Run batch fraud scoring
-        run: |
-          python -m inference.batch_score_claims
+          bash orchestration/run_daily_batch.sh
