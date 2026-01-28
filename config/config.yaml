@@ -1,0 +1,9 @@
+model:
+  contamination: 0.02
+  random_state: 42
+
+paths:
+  feature_table: data/processed/fraud_features.parquet
+
+mlflow:
+  experiment_name: fraud_claims_scoring
