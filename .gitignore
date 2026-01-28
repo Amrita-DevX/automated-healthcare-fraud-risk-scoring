@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data files
+data/raw/
+data/*.db
+data/**/*.db
+*.sqlite
+*.sqlite3
+
+# Outputs
+data/outputs/
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
