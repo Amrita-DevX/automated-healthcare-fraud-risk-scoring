@@ -1,20 +1,47 @@
+# ----------------------------
 # Python
+# ----------------------------
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
 
-# virtual environment
+# ----------------------------
+# Virtual environments
+# ----------------------------
 venv/
+.env/
 
-# data
+# ----------------------------
+# Data files (NEVER commit)
+# ----------------------------
 data/raw/
-data/*.db
-data/processed/*.parquet
+data/processed/
 data/outputs/
+*.csv
+*.parquet
+*.db
 
-# mlflow
+# ----------------------------
+# MLflow
+# ----------------------------
 mlruns/
 mlflow.db
 
-# OS
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# OS / Editor
+# ----------------------------
 .DS_Store
-Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
