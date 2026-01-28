@@ -2,21 +2,18 @@
 __pycache__/
 *.pyc
 
-# Virtual environments
+# virtual environment
 venv/
-env/
-.venv/
 
-# Data files
+# data
 data/raw/
 data/*.db
-data/**/*.db
-*.sqlite
-*.sqlite3
-
-# Outputs
+data/processed/*.parquet
 data/outputs/
+
+# mlflow
 mlruns/
+mlflow.db
 
 # OS
 .DS_Store
