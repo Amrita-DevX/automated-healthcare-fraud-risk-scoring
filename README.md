@@ -113,7 +113,7 @@ automated-healthcare-fraud-risk-scoring/
 ├── notebooks/                       # Exploratory analysis and validation
 ├── sql/                             # Database queries and schemas
 │
-├── dashboards/
+├── powerbi/
 │   └── provider_fraud_dashboard.pbix    # Power BI dashboard
 │
 ├── requirements.txt                 # Python dependencies
